@@ -30,8 +30,6 @@ public class ArabicNormalizer {
     public static final String AllDigits = "0123456789";
     public static final String ALLDelimiters = "\u0020\u0000-\u002F\u003A-\u0040\u007B-\u00BB\u005B-\u005D\u005F-\u0060\\^\u0600-\u060C\u06D4-\u06ED\ufeff";
 
-    public static ArrayList<String> ArabicStopWords = new ArrayList<>();
-
     public static final char ALEF = '\u0627';
     public static final char ALEF_MADDA = '\u0622';
     public static final char ALEF_HAMZA_ABOVE = '\u0623';
